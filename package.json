@@ -1,0 +1,30 @@
+{
+  "name": "victroninflux",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artomweb/VictronInflux.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/artomweb/VictronInflux/issues"
+  },
+  "homepage": "https://github.com/artomweb/VictronInflux#readme",
+  "description": "",
+  "dependencies": {
+    "@influxdata/influxdb-client": "^1.35.0",
+    "@serialport/parser-readline": "^13.0.0",
+    "dotenv": "^16.5.0",
+    "serialport": "^13.0.0"
+  },
+  "devDependencies": {
+    "vitest": "^3.1.3"
+  }
+}
